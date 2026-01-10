@@ -15,7 +15,7 @@ struct ContentView: View {
                     .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
             Tab("Better call", systemImage: "briefcase") {
-                QuoteView(show: "Better call")
+                QuoteView(show: "Better call Saul")
                     .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
         }
