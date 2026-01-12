@@ -11,13 +11,13 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Tab(Constants.bbName, systemImage: "tortoise") {
-                QuoteView(show: "Breaking Bad")
+                FetchView(show: "Breaking Bad")
             }
             Tab(Constants.bcsName, systemImage: "briefcase") {
-                QuoteView(show: "Better Call Saul")
+                FetchView(show: "Better Call Saul")
             }
             Tab(Constants.ecName, systemImage: "car") {
-                QuoteView(show: "El Camino")
+                FetchView(show: "El Camino")
             }
         }
         .preferredColorScheme(.dark)
